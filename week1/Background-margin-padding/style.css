@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+div:nth-child(2) {
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+div:nth-child(3) {
+    background-color: hsl(275, 76%, 53%, 0.1);
+}
