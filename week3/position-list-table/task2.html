@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <title> CSS Week3</title>
+        <style>
+            div {
+                width: 400px;
+                text-align: center;
+                margin: auto;
+                padding: 15px;
+                background-color: gainsboro;
+                border-top: 3px solid red; 
+                border-bottom: 3px solid red;
+                border-right: 3px solid #366eb8; 
+                border-left: 3px solid #366eb8;
+                position: relative;
+            }
+
+            .top-left, .bottom-left, .top-right, .bottom-right {
+                background-color: #366eb8;
+                border: 3px solid #366eb8;
+                position: absolute;
+                color: white;
+            }
+            
+            .top-left {
+                top: -17px;
+                left: -13px;
+                padding: 5px;
+                border-right-color: red;
+            }
+
+            .bottom-left {
+                bottom: -17px;
+                left: -13px;
+                padding: 5px;
+                border-right-color: red;
+            }
+
+            .top-right {
+                top: -17px;
+                right: -13px;
+                padding: 5px;
+                border-left-color: red;
+            }
+
+            .bottom-right {
+                bottom: -17px;
+                right: -13px;
+                padding: 5px;
+                border-left-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea ipsum
+            similique quasi rem, fugiat voluptatibus reiciendis nam debitis earum quo veniam
+            laudantium mollitia atque! Laborum ea nam doloribus.
+            <span class="top-left">1</span>
+            <span class="bottom-left">2</span>
+            <span class="top-right">3</span>
+            <span class="bottom-right">4</span>
+          </div>
+    </body>
+</html>
