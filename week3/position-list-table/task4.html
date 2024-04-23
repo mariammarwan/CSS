@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
         <title>Table</title>
-        <meta name="viewport" content="width=device-width">
-        <meta charset="UTF-8">
-        <style></style>
+        <style>
+            table {
+                width: 700px;
+                margin: auto;
+                padding: 10px;
+                border-spacing: 0px;
+            }
+            caption {
+                font-weight: bold;
+            }
+            thead{
+                background-color: #2c2b2b;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                margin: 10px;
+            }
+            table td{
+                padding: 15px;
+                background-color: gainsboro;
+                text-align: center;
+                border: 1px solid white;
+            }
+            a {
+                padding: 5px;
+                text-decoration: none;
+                color: white;
+            }
+            .blue {
+                background-color: blue;
+            }
+            .red {
+                background-color: red;
+            }
+        </style>
     </head>
     <body>
-        
+        <table>
+            <caption>Developers Rating</caption>
+            <thead class="head">
+                <tr>
+                    <th>Avatar</th>
+                    <th>Group</th>
+                    <th>Name</th>
+                    <th>points</th>
+                    <th>Control</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/F00/FFF" alt="red photo"></td>
+                    <td>Ninja</td>
+                    <td>Ahmed Mohamed</td>
+                    <td>120</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/F00/FFF" alt="red photo"></td>
+                    <td rowspan="2">Shades</td>
+                    <td>Shady Nabil</td>
+                    <td>180</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/blue/FFF" alt="blue photo"></td>
+                    <td>Eman Mohamed</td>
+                    <td>160</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/F00/FFF" alt="red photo"></td>
+                    <td rowspan="2">Valhala</td>
+                    <td>Mohamed Ibrahim</td>
+                    <td>190</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/blue/FFF" alt="blue photo"></td>
+                    <td>Noor Atef</td>
+                    <td>110</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/40x40/F00/FFF" alt="red photo"></td>
+                    <td>Union</td>
+                    <td>Mahmoud Adel</td>
+                    <td>90</td>
+                    <td>
+                        <a class="blue" href="https://www.google.com/" target="_blank">Google</a>
+                        <a class="red" href="https://www.google.com/" target="_blank">Google</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
