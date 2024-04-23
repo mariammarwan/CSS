@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .parent {
+                width: 400px;
+                margin: auto;
+            }
+             .first, .second, .third {
+                background-color: gainsboro;
+                list-style: none;
+                margin: 10px;
+                padding: 10px;
+             }
+             .name1, .name2, .name3, .type1, .type2, .type3, .lib1, .lib2{
+                background-color: white;
+                margin: 10px;
+                padding: 10px;
+             }
+             .type1, .type2, .type3 {
+                list-style: upper-roman;
+             }
+             .lib1, .lib2 {
+                list-style: inside;
+                list-style-type: circle;
+             }
+        </style>
+    </head>
+    <body>
+        <ul class="parent">
+            <li class="first">
+              HTML
+              <ol>
+                <li class="name1" value="10">Slim</li>
+                <li class="name2">Pugjs</li>
+                <li class="name3">HAML</li>
+              </ol>
+            </li>
+            <li class="second">
+              CSS
+              <ol>
+                <li class="type1" value="10">SASS</li>
+                <li class="type2">LESS</li>
+                <li class="type3">PostCSS</li>
+              </ol>
+            </li>
+            <li class="third">
+              JavaScript
+              <ul>
+                <li class="lib1">Vuejs</li>
+                <li class="lib2">Sveltejs</li>
+              </ul>
+            </li>
+          </ul>
+    </body>
+</html>
